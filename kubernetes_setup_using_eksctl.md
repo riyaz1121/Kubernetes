@@ -13,6 +13,9 @@ You can follow same procedure in the official  AWS document [Getting started wit
    d. Test that your kubectl installation was successful    
    ```sh 
    curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
+   (or)
+   curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.25.6/2023-01-30/bin/darwin/amd64/kubectl
+
    chmod +x ./kubectl
    mv ./kubectl /usr/local/bin 
    kubectl version --short --client
